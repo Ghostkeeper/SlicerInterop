@@ -1,0 +1,140 @@
+{
+	"from": {
+		"machine_name": [{
+			"condition": "cura_version >= 2.3.0",
+			"value": "machine_name"
+		}],
+		"machine_show_variants": [{
+			"condition": "cura_version >= 2.3.0",
+			"value": "machine_show_variants"
+		}],
+		"machine_end_gcode": [{
+			"value": "machine_end_gcode"
+		}],
+		"material_guid": [{
+			"value": "material_guid"
+		}],
+		"material_diameter": [{
+			"condition": "cura_version >= 3.6.0",
+			"value": "material_diameter"
+		}],
+		"material_bed_temp_wait": [{
+			"value": "material_bed_temp_wait"
+		}],
+		"material_print_temp_wait": [{
+			"value": "material_print_temp_wait"
+		}],
+		"machine_width": [{
+			"value": "machine_width"
+		}],
+		"machine_depth": [{
+			"value": "machine_depth"
+		}],
+		"machine_height": [{
+			"value": "machine_height"
+		}],
+		"machine_shape": [{
+			"condition": "cura_version >= 2.4.0",
+			"value": "machine_shape"
+		}],
+		"machine_buildplate_type": [{
+			"condition": "cura_version >= 3.3.0",
+			"value": "machine_buildplate_type"
+		}],
+		"machine_heated_bed": [{
+			"value": "machine_heated_bed"
+		}],
+		"machine_heated_build_volume": [{
+			"condition": "cura_version >= 4.3.0",
+			"value": "machine_heated_build_volume"
+		}],
+		"machine_always_write_active_tool": [{
+			"condition": "cura_version >= 4.7.0",
+			"value": "machine_always_write_active_tool"
+		}],
+		"machine_center_is_zero": [{
+			"value": "machine_center_is_zero"
+		}],
+		"machine_extruder_count": [{
+			"value": "machine_extruder_count"
+		}],
+		"machine_nozzle_tip_outer_diameter": [{
+			"value": "machine_nozzle_tip_outer_diameter"
+		}],
+		"machine_nozzle_head_distance": [{
+			"value": "machine_nozzle_head_distance"
+		}],
+		"machine_nozzle_expansion_angle": [{
+			"value": "machine_nozzle_expansion_angle"
+		}],
+		"machine_heat_zone_length": [{
+			"value": "machine_heat_zone_length"
+		}],
+		"machine_nozzle_temp_enabled": [{
+			"value": "machine_nozzle_temp_enabled"
+		}],
+		"machine_nozzle_heat_up_speed": [{
+			"value": "machine_nozzle_heat_up_speed"
+		}],
+		"machine_nozzle_cool_down_speed": [{
+			"value": "machine_nozzle_cool_down_speed"
+		}],
+		"machine_min_cool_heat_time_window": [{
+			"condition": "cura_version >= 2.3.0",
+			"value": "machine_min_cool_heat_time_window"
+		}],
+		"machine_gcode_flavor": [{
+			"value": "machine_gcode_flavor"
+		}],
+		"machine_firmware_retract": [{
+			"condition": "cura_version >= 3.2.0",
+			"value": "machine_firmware_retract"
+		}],
+		"machine_extruders_share_heater": [{
+			"condition": "cura_version >= 4.5.0",
+			"value": "machine_extruders_share_heater"
+		}],
+		"machine_extruders_share_nozzle": [
+			{
+				"condition": "cura_version >= 4.9.0",
+				"value": "machine_extruders_share_nozzle"
+			},
+			{
+				"condition": "cura_version >= 4.5.0",
+				"value": "machine_extruders_share_heater"
+			}
+		],
+		"machine_extruders_shared_nozzle_initial_retraction": [
+			{
+				"condition": "cura_version >= 4.9.0",
+				"value": "machine_extruders_shared_nozzle_initial_retraction"
+			},
+			{
+				"condition": "cura_version >= 4.5.0",
+				"value": "0"
+			}
+		],
+		"machine_disallowed_areas": [{
+			"value": "machine_disallowed_areas"
+		}],
+		"nozzle_disallowed_areas": [{
+			"condition": "cura_version >= 2.4.0",
+			"value": "nozzle_disallowed_areas"
+		}],
+		"machine_head_with_fans_polygon": [{
+			"value": "machine_head_with_fans_polygon"
+		}],
+		"gantry_height": [{
+			"value": "gantry_height"
+		}],
+		"machine_nozzle_id": [{
+			"condition": "cura_version >= 2.7.0",
+			"value": "machine_nozzle_id"
+		}],
+		"machine_nozzle_size": [{
+			"value": "machine_nozzle_size"
+		}]
+	},
+	"to": {
+	}
+}
